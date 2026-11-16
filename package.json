@@ -1,0 +1,11 @@
+{
+  "name": "kurrentdb-client-cached-discovery-failure",
+  "private": true,
+  "description": "A failed gossip discovery is cached forever by @kurrent/kurrentdb-client",
+  "scripts": {
+    "start": "node repro.js"
+  },
+  "dependencies": {
+    "@kurrent/kurrentdb-client": "1.3.2"
+  }
+}
